@@ -1,0 +1,2 @@
+stdout: He found a leprechaun in his walnut shell.
+
