@@ -449,7 +449,7 @@ int main(int argc, char* argv[]){
 		if(argc > 3){
 			printf("Error... Only include one file to extract\n");
 		}
-		char *extension = argv[3] + strlen(argv[3]) - 5;	// Grab .mtar from end of file
+		char *extension = argv[2] + strlen(argv[2]) - 5;	// Grab .mtar from end of file
 		if(strcmp(extension, ".mtar") != 0){
 			printf("Error... usage ./myTar -x file.mtar\n");
 		}
